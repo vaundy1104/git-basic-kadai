@@ -1,0 +1,17 @@
+yokoyamatkaya@MacBook-Air-2 ~ % mkdir git_challenge
+yokoyamatkaya@MacBook-Air-2 ~ % cd git_challenge
+yokoyamatkaya@MacBook-Air-2 git_challenge % git init
+Initialized empty Git repository in /Users/yokoyamatkaya/git_challenge/.git/
+yokoyamatkaya@MacBook-Air-2 git_challenge % git add hello_world.txt
+yokoyamatkaya@MacBook-Air-2 git_challenge % git commit -m "1回目のコ ミット"
+[main (root-commit) a2aff15] 1回目のコミット
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+yokoyamatkaya@MacBook-Air-2 git_challenge % git add hello_world.txt 
+yokoyamatkaya@MacBook-Air-2 git_challenge % git commit -m "2回目のコ ミット"
+[main c86099a] 2回目のコミット
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+yokoyamatkaya@MacBook-Air-2 git_challenge % git log --oneline
+c86099a (HEAD -> main) 2回目のコミット
+a2aff15 1回目のコミット
+yokoyamatkaya@MacBook-Air-2 git_challenge % 
